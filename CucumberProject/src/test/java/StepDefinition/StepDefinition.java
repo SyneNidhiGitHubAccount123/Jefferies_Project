@@ -19,8 +19,8 @@ public class StepDefinition
 		
 		System.out.println("user is already on Login Page");
 		
-		driver = new ChromeDriver();		
-		driver.get("https://www.freecrm.com/index.html");		
+//		driver = new ChromeDriver();		
+//		driver.get("https://www.freecrm.com/index.html");		
 	    
 	}
 
