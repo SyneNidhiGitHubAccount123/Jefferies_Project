@@ -7,13 +7,6 @@
   <dependencies>
 
 <dependency>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-surefire-plugin</artifactId>
-    <version>3.0.0-M4</version>
-     <scope>test</scope> 
-</dependency>
-
-<dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
     <version>4.10.0</version>
@@ -82,18 +75,7 @@
 		        </configuration>
 		      </plugin>	  	
 		      
-  <plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-surefire-plugin</artifactId>
-    <version>3.0.0-M4</version>
-    <dependencies>
-      <dependency>
-        <groupId>org.apache.maven.surefire</groupId>
-        <artifactId>surefire-junit47</artifactId>
-        <version>3.0.0-M4</version>
-      </dependency>
-    </dependencies>
-  </plugin>
+ 
 		      	      		     
       	</plugins>
   	</build>  
